@@ -1,0 +1,5 @@
+rootProject.name = 'spring-boot-rabbit-demo'
+
+
+include 'Consumer'
+include 'Publisher'

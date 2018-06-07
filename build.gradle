@@ -1,0 +1,16 @@
+allprojects {
+    group = 'cn.zx.spring-boot-rabbit-demo'
+    version = '0.0.1-SNAPSHOT'
+}
+subprojects {
+    apply plugin: 'java'
+
+    sourceCompatibility = 1.8
+
+    repositories {
+        maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+    }
+    dependencies{
+        compile 'org.projectlombok:lombok:1.16.18'
+    }
+}
